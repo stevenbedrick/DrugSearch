@@ -1,4 +1,4 @@
-h1. ReadMe: DrugSearch
+ReadMe: DrugSearch
 ----
 
 This is a small Ruby class that (at one point, anyway) was able to connect to the US National Library of Medicine's [MedlinePlus](http://www.nlm.nih.gov/medlineplus/) service, lookup drugs, and return lists of their side effects. At the moment, most of its unit tests fail-- probably due to site changes on the NLM's side. However, I suspect that, with relatively minor fixes, an interested party could get it working again in quite quickly. This code was used in the system described in [this paper](http://www.ncbi.nlm.nih.gov/pubmed/20351818).
